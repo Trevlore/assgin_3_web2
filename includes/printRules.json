@@ -1,0 +1,112 @@
+{
+	"sizes" : [
+		{
+			"id": 0,
+			"name" : "5x7",
+			"cost" : 0.50
+		},
+		{
+			"id": 1,
+			"name" : "8x10",
+			"cost" : 2.50
+		},
+		{
+			"id": 2,
+			"name" : "11x14",
+			"cost" : 6.00
+		},
+		{
+			"id": 3,
+			"name" : "12x18",
+			"cost" : 7.00
+		}
+	],
+	"stock" : [
+		{ 
+		   "id": 0,
+		   "name" : "Matte",
+		   "small_cost": 0.00,
+		   "large_cost": 0.00
+		},
+		{ 
+		   "id": 1,
+		   "name" : "Glossy",
+		   "small_cost": 0.50,
+		   "large_cost": 1.00
+		},
+		{
+		   "id": 2, 
+		   "name" : "Canvas",
+		   "small_cost": 4.00,
+		   "large_cost": 8.00
+		}
+	],
+	"frame" : 	[
+		{ 
+		   "id": 0,
+		   "name" : "None",
+		   "color": "#ffffff",
+		   "border": 0,
+		   "costs": [0.00, 0.00, 0.00, 0.00]
+		},
+		{ 
+		   "id": 1,			
+		   "name" : "Blond Maple",
+		   "color" : "#d6b257",
+		   "border": 12,
+		   "costs": [10.00, 12.00, 16.00, 20.00]
+		},
+		{ 
+		   "id": 2,			
+		   "name" : "Expresso Walnut",
+		   "color": "#874704",
+		   "border": 16,
+		   "costs": [10.00, 12.00, 16.00, 20.00]
+		},	
+		{ 
+		   "id": 3,			
+		   "name" : "Silver Metal",
+		   "color": "#c6bfb6",
+		   "border": 12,
+		   "costs": [12.00, 14.00, 18.00, 22.00]
+		},
+		{ 
+		   "id": 4,			
+		   "name" : "Gold Accent",
+		   "color": "#e5cb20",
+		   "border": 8,
+		   "costs": [12.00, 14.00, 18.00, 22.00]
+		}		
+	],	
+	"shipping" : [
+		{
+			"id": 0,
+		    "name": "Standard",
+			"rules" : {
+				"none": 5.00,
+				"under10": 15.00,
+				"over10": 30.00
+			}
+		},
+		{
+			"id": 1,
+		    "name": "Express",
+			"rules" : {
+				"none": 15.00,
+				"under10": 25.00,
+				"over10": 45.00
+			}		
+		}
+	],
+	"freeThresholds" : [
+		{ 	
+			"name": "Standard",
+			"amount": 100.00
+	    },
+		{ 	
+			"name": "Express",
+			"amount": 300.00
+	    }	    
+	]	
+
+}
